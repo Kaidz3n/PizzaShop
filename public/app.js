@@ -1,6 +1,10 @@
 function something ()
 {
+	var x = window.localStorage.getItem('aaa');
 
-	alert('Hello everyone!');
+	window.localStorage.setItem('aaa', 555);
+
+	alert(x);
+	
 }
 
