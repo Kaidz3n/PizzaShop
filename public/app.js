@@ -1,3 +1,9 @@
+function add_to_cart(id)
+{
+	alert('You added pizza with id: ' + id);
+}
+
+
 function something()
 {
 	var x = window.localStorage.getItem('bbb');
@@ -10,7 +16,3 @@ function something()
 	
 }
 
-function add_to_cart()
-{
-	alert('Hello from function!');
-}
